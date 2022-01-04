@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section {
+    display: flex;
+}
+
+.container {
+    background-color: transparent;
+    margin: 20px 0px;
+    padding: 0px 100px;
+    display: flex;
+}
+
+.banner-inner {
+    width: 50%;
+}
+
+.banner-inner img {
+    width: 80%;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.banner-text {
+    margin-top: 150px;
+}
+
+.banner-text .rakib-name {
+    color: tomato;
+}
+
+.banner-text .second-title {
+    margin: 20px 0;
+}
+
+h1 {
+    font-size: 42px;
+    color: rgb(14, 12, 12);
+    line-height: 80px;
+    letter-spacing: 3px;
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    font-family: cursive;
+    font-weight: 100;
+}
+
+.hire-me {
+    margin: 30px 0;
+    background-image: linear-gradient(tomato, rgb(219, 103, 50));
+    width: 180px;
+    padding: 10px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hire-me a {
+    text-decoration: none;
+    color: #fff;
+}
